@@ -11,7 +11,7 @@ def solution(numer1, denom1, numer2, denom2):
     numer = numer1 * denom2 + numer2 * denom1
     denom = denom1 * denom2
     
-# 최대 공약수 함수 math.gcd()
+    # 최대 공약수 함수 math.gcd()
     gcd = math.gcd(numer, denom)
     answer = [numer/gcd, denom/gcd]
     return answer
