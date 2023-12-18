@@ -9,7 +9,7 @@ from collections import Counter # collections 모듈의 Counter 클래스
 def solution(array): # array : [1,2,3,3,3,4]
     count = Counter(array) 
     # Counter : dict 형태로 요소의 빈도수를 알려줌
-    # Counter({"1":1, "2":1, "3":3, "4":1} )
+    # Counter({"1":1, "2":1, "3":3, "4":1})
     
     ## 최빈값 구하기
     mode_values = []
